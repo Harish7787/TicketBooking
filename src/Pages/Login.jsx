@@ -59,7 +59,7 @@ const handleLogin = async () => {
 
     
      localStorage.setItem("authData",JSON.stringify(res.data))
-    // 🔥 ROLE BASED REDIRECT
+    //  ROLE BASED REDIRECT
     if (role === "user") {
       alert("✅ Login successful");
       navigate("/user/dashboard");

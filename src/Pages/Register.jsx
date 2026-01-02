@@ -48,10 +48,10 @@ const Register = () => {
   try {
     const res = await Apiservice.post("/user/add", formData);
 
-    // ✅ SUCCESS POPUP
+    // SUCCESS POPUP
     alert(" Registration successfully.");
 
-    // ✅ Form reset
+    // Form reset
     setFormData({
       name: "",
       email: "",
@@ -59,7 +59,7 @@ const Register = () => {
       password: ""
     });
 
-    // ✅ Optional: login page pe redirect
+    // Optional: login page pe redirect
     navigate("/login");
 
   } catch (error) {

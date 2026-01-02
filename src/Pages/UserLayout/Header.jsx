@@ -17,7 +17,7 @@ const Header = () => {
         <NavLink to="/user/dashboard">Dashboard</NavLink>
         <NavLink to="/user/my-bookings">My Bookings</NavLink>
 
-        {/* ✅ EVENTS LINK */}
+        {/* EVENTS LINK */}
         <NavLink
           to="/user/event"
           className={({ isActive }) =>
